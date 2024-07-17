@@ -4,7 +4,10 @@
 
 <div align="center">
 
-# ComfyUI Easy Use
+# ComfyUI Easy Use Styler Only
+
+**Hint: Only contains the styler of the original repo, below is the original repo README**
+
 </div>
 
 **ComfyUI-Easy-Use** is a simplified node integration package, which is extended on the basis of [tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes), and has been integrated and optimized for many mainstream node packages to achieve the purpose of faster and more convenient use of ComfyUI. While ensuring the degree of freedom, it restores the ultimate smooth image production experience that belongs to Stable Diffusion.

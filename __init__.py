@@ -3,14 +3,10 @@ __version__ = "1.2.1"
 import os
 import folder_paths
 import importlib
-from pathlib import Path
 
 node_list = [
-    "server",
     "api",
     "easyNodes",
-    "image",
-    "logic"
 ]
 
 NODE_CLASS_MAPPINGS = {}
@@ -41,17 +37,6 @@ if os.path.exists(styles_path):
 else:
     os.mkdir(styles_path)
     os.mkdir(samples_path)
-
-# Model thumbnails
-from .py.libs.add_resources import add_static_resource
-from .py.libs.model import easyModelManager
-model_config = easyModelManager().models_config
-for model in model_config:
-    paths = folder_paths.get_folder_paths(model)
-    for path in paths:
-        if not Path(path).exists():
-            continue
-        add_static_resource(path, path, limit=True)
 
 WEB_DIRECTORY = "./web"
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS', "WEB_DIRECTORY"]

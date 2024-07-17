@@ -4,7 +4,9 @@
 
 <div align="center">
 
-# ComfyUI Easy Use
+# ComfyUI Easy Use Styler Only
+
+**注意：只包含原项目的样式选择器，以下为原项目介绍**
 
 [![Bilibili Badge](https://img.shields.io/badge/1.1版本-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white&link=https://www.bilibili.com/video/BV1w6421F7Uv)](https://www.bilibili.com/video/BV1w6421F7Uv)
 [![Bilibili Badge](https://img.shields.io/badge/基本介绍-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white&link=https://www.bilibili.com/video/BV1vQ4y1G7z7)](https://www.bilibili.com/video/BV1vQ4y1G7z7/)
